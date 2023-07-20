@@ -1,0 +1,10 @@
+# **/build
+
+# *.html
+# **/*.html
+# *.md
+# *.yml
+# **/yarn.lock
+
+# node_modules
+# **/node_modules

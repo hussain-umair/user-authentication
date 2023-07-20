@@ -1,0 +1,6 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [],
+  "include": ["src/**"],
+  "ignore": ["node_modules"]
+}
