@@ -7,14 +7,14 @@ const handler = app =>
       body: { firstName, lastName, email, password },
     } = req
 
-    await User.create({
+    const user = await User.unscoped().create({
       firstName,
       lastName,
       email,
       password,
     })
-    // console.log('body======> ', body)
-    res.status(200).json({ body })
+
+    res.status(200).json({ user })
   })
 
 export default handler
